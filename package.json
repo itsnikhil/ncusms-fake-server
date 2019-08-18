@@ -5,12 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "json": "json-server data.js -p 3500 -m authMiddleware.js",
-    "heroku-postbuild": "ng build --prod"
+    "json": "json-server data.js -p 3500 -m authMiddleware.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "json-server": "^0.15.0"
+  },
+  "engines": {
+    "node": "8.12.0",
+    "npm": "6.4.1"
   }
 }
