@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "json": "json-server data.js -p 3500 -m authMiddleware.js"
+    "json": "json-server data.js -p 3500 -m authMiddleware.js",
+    "heroku-postbuild": "ng build --prod"
   },
   "author": "",
   "license": "ISC",
